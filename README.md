@@ -22,9 +22,9 @@ Alternatively, one can generate figures from the paper using precomputed interme
 These analyses were run on Python 3.11.
 **Following packages are required to regenerate the paper figures**: 
 
+`numpy==1.23.5`
 `pandas==2.0.3`
 `matplotlib==3.7.2`
-`sqlite3==2.6.0`
 
 while a full list of packages needed for recalculating the simulation can be found in the requirements.txt file.
 

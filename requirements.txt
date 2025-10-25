@@ -73,6 +73,7 @@ nest-asyncio==1.5.7
 networkx==3.2.1
 neural-tangents==0.6.4
 numba==0.58.1
+numpy==1.23.5
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==23.1
@@ -136,4 +137,3 @@ wcwidth==0.2.6
 Werkzeug==2.3.6
 widgetsnbextension==4.0.8
 wrapt==1.14.1
-sqlite3==2.6.0
