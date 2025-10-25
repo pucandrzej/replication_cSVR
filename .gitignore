@@ -1,0 +1,13 @@
+# ignore directories with data that is not public
+Data/Day-Ahead_Auction
+Data/ID_auction_preprocessed 
+Data/Indices
+Data/Intraday_Auction
+Data/Polish_data
+Data/Transactions
+Data/preprocessed_dataset.csv
+**/__pycache__/
+# ignore the python env
+contmarket311
+# ignore the intraday data
+Forecasting/data_ID.db

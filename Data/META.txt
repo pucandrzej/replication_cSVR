@@ -1,0 +1,12 @@
+Directory contains all the data used in simulation.
+(indented are not available if you downloaded the repository from git)
+
+Crossborder
+	Day-Ahead Auction (not available on git as it is not freely available dataset)
+Day-Ahead-Quarterly-Data
+	ID_auction_preprocessed (not available on git as it is not freely available dataset)
+	Indices (not available on git as it is not freely available dataset)
+	Intraday Auction (not available on git as it is not freely available dataset)
+Load
+	Polish_data (not available on git as it is not freely available dataset)
+	Transactions (not available on git as it is not freely available dataset)
