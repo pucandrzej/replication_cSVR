@@ -1,1 +1,3 @@
-generation data downloaded from ENTSOe
+SPV and wind generation data downloaded from ENTSO-E on 2021-04-12.
+
+Link: https://transparency.entsoe.eu/generation/r2/actualGenerationPerProductionType/show

@@ -1,1 +1,3 @@
-Crossboarder physical flows downloaded from ENTSOe
+Crossboarder physical flows downloaded from ENTSO-E on 2021-04-12.
+
+Link: https://transparency.entsoe.eu/transmission-domain/physicalFlow/show

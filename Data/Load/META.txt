@@ -1,1 +1,3 @@
-Load data downloaded from ENTSOe
+Load (consumption) data downloaded from ENTSO-E on 2021-04-12.
+
+Link: https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show
