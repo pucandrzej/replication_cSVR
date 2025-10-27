@@ -15,7 +15,7 @@ andrzej.puc@pwr.edu.pl
 The code in this replication material allows for recalculating the forecasting simulation which served as an illustration of forecasting methodology proposed in the paper "Corrected Support Vector Regression for intraday point forecasting of prices in the continuous power market". 
 When the simulation is recalculated, each figure presented in the paper can be generated using `paper_figures_reproduction.ipynb` file. The notebook saves generated figures in the Paper_Figures directory.
 
-Alternatively, one can generate figures from the paper using precomputed intermediary files by running the notebook right after downloading the repository.
+Alternatively, one can generate figures from the paper using precomputed intermediary files (`.pickle` files containing forecasting accuracy measures, stored in `Forecasting/RESULTS/cSVR_LASSO_RF_MAE` and `Forecasting/RESULTS/VANILLA_SVR_MAE` directories) by running the notebook right after downloading the repository.
 **Please note that raw data used in the forecasting study is not fully publicly available. Thus, Figures 1, 2, A.9 and A.10 cannot be generated based solely on the contents of this repository.**
 
 ## Software requirements
@@ -66,6 +66,6 @@ Having the forecasts, you can augment them with their weighted average using `in
 Finally, the forecasts can be analyzed using accuracy measures and Diebold-Mariano test.
 
 For that, run the `mae_aggregator.py` script.
-
+By default it will save the results in `Forecasting/RESULTS/cSVR_LASSO_RF_MAE`, which we use as a main source of the intermediary files.
 
 After completing these steps, you can run the `paper_figures_reproduction.ipynb` on your own results.
