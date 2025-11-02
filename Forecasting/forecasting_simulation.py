@@ -20,6 +20,8 @@ import sqlite3
 from sklearn.ensemble import RandomForestRegressor
 from numba import jit as nb_jit
 
+from forecasting_config import forecasting_config
+
 # import custom functions
 from remove_zerovar import remove_zerovar
 
@@ -94,7 +96,7 @@ weighting_alpha = 1
 variable_set = 11
 
 # define the folder name to store the results - it will be created automatically
-results_folname = "TEST_NEW_INPUT_DATA"
+results_folname = forecasting_config["forecasting_results_dir"]
 
 # prepare the directories structure to save the simulation results
 if args.special_results_directory is not None:
