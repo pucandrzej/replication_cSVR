@@ -52,8 +52,7 @@ Store the downloaded EPEX Spot continuous market transactions in yearly director
 
 Run the `preprocess_transactions.py` to preprocess the data in line with preprocessing approach described in the paper.
 
-If you also want to change the horizon and use different ranges of exogenous variables downloaded from ENTSOe, you can use the `` script for dst handling.
-This step can be skipped if you keep the original range of simulation.
+If you also want to change the horizon and use different ranges of exogenous variables downloaded from ENTSOe, you can use the `exogenous_data_preprocessing.py` script for dst handling.
 
 ### Run the simulation
 Run the `simulation_runner.py` script to schedule all of the simulations.
