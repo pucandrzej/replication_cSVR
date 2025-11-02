@@ -68,10 +68,10 @@ for model in args.models:
                     "--calibration_window_len",
                     str(args.calibration_window_len),
                     "--processes",
-                    str(processes),
-                    "--special_results_directory",
-                    args.special_results_directory,
-                ]
+                    str(processes)
+                ] + [
+                    "--special_results_directory", str(args.special_results_directory)
+                ]*(args.special_results_directory is not None)
             )
 
     invoked = 0
